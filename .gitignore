@@ -3,25 +3,23 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# PyTorch checkpoints & weights
-checkpoints/
-*.pth
+# PyTorch checkpoints / model weights
 *.pt
+*.pth
 
-# Datasets
+# Data directories
 data/
-data/*
+*.csv
 
-# Tensorboard / Logs
-runs/
-*.log
+# Previews & Output figures
+*.png
+*.jpg
+*.jpeg
 
-# Environments
+# Virtual environments
 venv/
-.env/
+.venv/
 env/
 
-# VS Code & OS
-.vscode/
-.DS_Store
-Thumbs.db
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
